@@ -50,7 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="SelectionSortTests.cs" />
     <Compile Include="BubbleSortTests.cs" />
+    <Compile Include="SortTestsBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

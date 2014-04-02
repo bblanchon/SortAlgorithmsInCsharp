@@ -4,10 +4,10 @@ using SortAlgorithms;
 namespace SortAlgorithmsTests
 {
     [TestClass]
-    public class BubbleSortTests : SortTestsBase
+    public class SelectionSortTests : SortTestsBase
     {
-        public BubbleSortTests() 
-            : base(new BubbleSort<int>())
+        public SelectionSortTests() 
+            : base(new SelectionSort<int>())
         {
         }
     }
