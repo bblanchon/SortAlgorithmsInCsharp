@@ -17,5 +17,11 @@ namespace SortAlgorithms
                 }
             }
         }
+
+        protected static void SwapIfNeeded(T[] array, int i, int j)
+        {
+            if (array[i].CompareTo(array[j]) <= 0) return;
+            Swap(array, i, j);
+        }
     }
 }

@@ -7,12 +7,6 @@ namespace SortAlgorithms
     {
         public abstract void Sort(T[] array);
 
-        protected static void SwapIfNeeded(T[] array, int i, int j)
-        {
-            if (array[i].CompareTo(array[j]) <= 0) return;
-            Swap(array, i, j);
-        }
-
         protected static void Swap(T[] array, int i, int j)
         {
             var tmp = array[i];
